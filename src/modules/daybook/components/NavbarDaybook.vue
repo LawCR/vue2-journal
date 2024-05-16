@@ -9,6 +9,9 @@
 
 
     <div class="d-flex">
+      <!-- <button class="btn btn-outline-light mx-2" @click="logout">
+        <font-awesome-icon :icon="['fas', 'fa-bars']" />
+      </button> -->
       <button class="btn btn-outline-light mx-2" @click="logout">
         <font-awesome-icon :icon="['fas', 'fa-sign-out-alt']" />
       </button>

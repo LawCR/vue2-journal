@@ -10,8 +10,8 @@
 
 <style scoped>
 
-.logo {
+/* .logo {
   display: block;
   margin: 0 auto 2rem;
-}
+} */
 </style>

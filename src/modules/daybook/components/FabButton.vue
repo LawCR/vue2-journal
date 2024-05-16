@@ -1,5 +1,5 @@
 <template>
-  <button class="btn btn-primary">
+  <button class="btn btn-primary" @click="$emit('on:click')" :disabled="disabled">
     <font-awesome-icon :icon="['fas', icon]" class="fa-2x" />
   </button>
 </template>
@@ -10,6 +10,10 @@
       icon: {
         type: String,
         default: 'plus'
+      },
+      disabled: {
+        type: Boolean,
+        default: false
       }
     }
   }
